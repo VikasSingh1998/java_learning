@@ -40,11 +40,12 @@ Abstract classes are often used as base classes in an inheritance hierarchy.
 Abstract Class vs Interface:
 =============================
 Feature	                         Abstract Class	                                     Interface
-Instantiation             	Cannot be instantiated	                          Cannot be instantiated
+--------------------     -----------------------------------------          ----------------------------------
+Instantiation             	 Cannot be instantiated	                           Cannot be instantiated
 Abstract Methods	          Can have both abstract and concrete methods     	All methods are abstract (prior to Java 8)
-Fields	                    Can have fields	                                  Can have only static final fields
-Multiple Inheritance	      A class can inherit only one abstract class	      A class can implement multiple interfaces
-Constructor	                Can have constructors	                            Cannot have constructors
+Fields	                   Can have fields	                                 Can have only static final fields
+Multiple Inheritance	       A class can inherit only one abstract class	      A class can implement multiple interfaces
+Constructor	                Can have constructors	                           Cannot have constructors
 
 In general, you use an abstract class when objects share common behaviors 
 or states and an interface when unrelated classes need to share behavior.
